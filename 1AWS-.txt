@@ -1,0 +1,24 @@
+AWS:-
+
+What is OS?:-
+
+OS stands for operating System, which is a middle ware between user and computer hardware.
+We can say it as an soul of any computer, any operation which is happing in the computer is handle by OS.
+The software like notepad, crome, edge, calculator, etc. are managed and handle by OS.
+E.g of OS:- Windows, IOS, Android, etc. are some of the famous operating systems.
+
+What is AWS?:-
+
+AWS stands for Amazon web services, which are the services provided by amazon to deploy and manage our projects.
+you should get the simple question, Why should we deploy our project?:
+When we create our project it will be available in our local system, but when we want to make our project public ie. when we want to make our project available for everyone we should deploy our project.
+So to deploy the project we have to do some critical operation, which we can do easily using the Amazon web services.
+AWS provides services like:-
+  1. EC2
+  2. RDS
+  3. S3
+  4. Serverless Management (LAMBDA)
+  5. Elastic Beanstalk
+  6. ROUTE53
+  7. VPC
+  8. IAM (for user management), etc.
