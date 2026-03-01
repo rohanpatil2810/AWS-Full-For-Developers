@@ -1,0 +1,15 @@
+Linux V/S Windows:-
+
+Linux 
+-CLI based (Commands based)
+-Multiple Users can use at a single time.
+-No need to install Antivirus( security features are very High).
+-Good for Devops
+-Free & Open source
+
+Windows
+-GUI (Graphical user intarface)
+-Single user based, ie. only single user can use at a time.
+-Security features are low as compared to Linux.
+-Good for personal use
+-Not free.
