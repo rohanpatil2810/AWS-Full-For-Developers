@@ -1,0 +1,22 @@
+EC2 in AWS:--Elastic Compute Cloud
+
+EC2 is a Service Provided by AWS
+Using EC2 we can create a Virtual Machine (VM)
+To create a Virtual Machine using EC2 below are components to be followed:-
+1) AMI:- Here user should select the OS & pre-installed software of VM
+2) Instance Type:- Here User has to Select the system configuration e.g t2 micro.
+3) Keypair:- It is used to estalish secured connection with EC2 VM.
+
+			- AWS will store public key
+			- AWS will provide private key for us
+4) VPC:- It is for network connectivity
+5) Security Groups:-Firewall (inbound & outbound)
+
+		=> Inbound rules are used to allow incoming traffic
+		=> Outbound rules will allow outgoing traffic
+
+6) EBS (storage):-EBS Volumes (hard disc/ssd)
+
+		Windows: 30 GB (default)
+		Linux : 8 GB (default)
+To connect with EC2 user can use SSH, putty.
