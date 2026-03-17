@@ -1,0 +1,35 @@
+RDS in AWS:--
+1. RDS stands for Relational Database Service.
+2. This is the service provided by AWS using which user can create a Database and tables in Cloud and use them.
+3. Using this user can create DB using any of the type e.g. MySQL, Oracle, etc.
+4. We have advantage here:-
+     A)we don't need to manage the DB, AWS will take care of it.
+     B) Backup will be maintain and provided by AWS only.
+     C)RDS works based on Pay as you go model.
+
+
+########################################
+Steps to create MYSQL DB using AWS RDS
+########################################
+
+1) Login into AWS management console
+
+2) Goto RDS Service
+
+3) Click on 'Create Database'
+
+		Choose a database creation method : Standard create
+		Engine Option : MySQL
+		Template : Free Tier
+		Username : admin
+		Password : Choose a passord	
+		Public Access : yes
+		Initial Database name : jrtp
+
+4) Click on 'Create Database' (It will take few minutes of time to create)
+
+	Note: Notedown username and password of the database
+
+5) Once Database created, it will provide database Endpoint URL to access
+
+6) Enable MySQL - 3306 port number in Security Group inbound rules.
