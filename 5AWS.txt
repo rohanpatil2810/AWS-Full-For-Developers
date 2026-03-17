@@ -1,0 +1,18 @@
+======================
+Types of IPs in AWS
+======================
+
+=> We have 3 types of IP's
+
+1) Private IP : fixed ip address for internal communication (with in vpc).
+
+2) Public IP : For outside acess (it is dynamic ip). When we restart vm then public ip gets changed.
+
+3) Elastic IP : Fixed public ip (It is commercial)
+
+
+			private ip : 172.31.0.185
+
+			public ip : 3.109.211.21
+
+			afer restart : 3.110.183.46
