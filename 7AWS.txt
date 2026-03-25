@@ -1,0 +1,15 @@
+=====================
+What is user data ?
+=====================
+
+=> It is used to execute the script while launching EC2 VM.
+
+Note: User data will execute only once when the machine is started.
+
+#! /bin/bash
+
+sudo su
+yum install httpd -y
+cd /var/www/html
+echo > "<h1>Welcome to Ashok IT</h1>"
+service httpd start
