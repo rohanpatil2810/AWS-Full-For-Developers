@@ -1,0 +1,13 @@
+===========================
+Lab practice on Elastic IP
+===========================
+
+Step-1 : Allocate Elastic IP (getting from AWS)
+
+Step-2 : Associate elastic ip to EC2 instance
+
+Step-3 : Re-start EC2 instance( ip will not change)
+
+Step-4 : De-Associate elastic ip from ec2
+
+Step-5 : Release elastic ip to aws.
