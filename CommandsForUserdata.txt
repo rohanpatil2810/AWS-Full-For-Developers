@@ -1,0 +1,5 @@
+sudo su
+yum install httpd -y
+cd /var/www/html
+echo > "<h1>Welcome to Ashok IT</h1>"
+service httpd start
