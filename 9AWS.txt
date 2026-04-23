@@ -1,0 +1,30 @@
+=========
+AWS IAM 
+=========
+
+=> Identity & Access Management is a free service in aws cloud
+
+=> IAM is used to manage below functionalities in AWS cloud
+
+		a) Users
+		b) Groups
+		c) Policies / Permissions
+		d) Roles
+
+Note: Using this IAM service we can decide who can into login into our aws cloud account and which services they can access in our aws cloud account.
+
+=> We can access AWS cloud platform in 2 ways
+
+		a) Root Account (super account)
+
+		b) IAM account (limited permissions)
+
+Note: When we create account in AWs cloud by default we will get ROOT user account. Root user will have access for everything in AWS cloud.
+
+Note:  It is not recommended to use Root account for daily activities.
+
+=> For daily activities we will use IAM account.
+
+=> In one root account, we can create multiple IAM accounts.
+
+Note: In Real-Time, for every team member one IAM account will be provided with limited permissions.
