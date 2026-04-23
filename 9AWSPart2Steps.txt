@@ -1,0 +1,31 @@
+STEPS-->
+Step 1: Login
+Go to AWS Console
+Login using root account (only for setup)
+
+Step 2: Open IAM
+Search: IAM
+Click IAM Dashboard
+
+Step 3: Create User
+Click Users → Create user
+Enter username:
+
+Step 4: Select Access Type
+Choose:
+✅ AWS Management Console access (for UI login)
+Set password
+(Optional)
+Programmatic access (for APIs / Spring Boot)
+
+Step 5: Assign Permissions
+👉 IMPORTANT: Don’t attach policy directly
+Instead:
+Choose: Add user to group(A group = collection of users with same permissions)-->
+		Step 1: Go to Groups:-IAM Dashboard → User groups--Click Create group-->
+		Step 2: Attach PoliciesChoose policies like:AmazonS3FullAccess,AmazonEC2FullAccess
+
+Step 6: Review & Create
+Click Create User
+Download credentials
+
