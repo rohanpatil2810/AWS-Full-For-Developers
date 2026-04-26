@@ -1,0 +1,42 @@
+==================
+Elastic Beanstalk
+==================
+
+-> To deploy one java web application manually we need to perform below operations
+
+1) Create Network
+
+2) Create Security group
+
+3) Create Virtual Machine (s)
+
+4) Install Java software in Virtual machine 
+
+5) Install Webserver to run java web application
+
+6) Deploy application to server
+
+7) Re-start the server
+
+8) Create LBR
+
+9) Create AutoScaling etc..
+
+### Instead of we are preparing platform to run our application, we can use Elastic Beanstalk service to run our web applications ###
+
+
+-> End-to-end web application management service in AWS cloud.
+
+-> In AWS, Elastic Beanstalk provides Platform As a Service (PaaS). 
+
+-> Easily we can run our web aplications on AWS cloud using Elastic Beanstalk service.
+
+-> We just need to upload our project code to Elastic Beanstalk then it will take care of deployment and infrastructure(resources) creation.
+
+-> Elastic Beanstack will take care of softwares and servers which are required to run our application.
+
+-> Elastic Beanstalk will take care of deployment, capacity provisioning, load balancer and auto scaling etc..
+
+Note: Elastic Beanstack will charge for the resources which got created to run application.
+
+
